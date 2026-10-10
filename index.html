@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git &amp; Deploy Playground</title>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Git &amp; Deploy</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h1>From Code to Live Website</h1>
+        <p class="hero-subtitle">
+          This website demonstrates the journey of writing code locally on your computer,
+          tracking it with Git, sharing it on GitHub, and deploying it live for the world with Vercel.
+        </p>
+        <button id="try-btn" class="btn">Try It</button>
+        <!-- This message area is updated by JavaScript when the button is clicked -->
+        <p id="interactive-message" class="message-box" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- Concepts Section -->
+    <section class="concepts">
+      <div class="container">
+        <h2>How It Works</h2>
+        <div class="card-grid">
+
+          <article class="card">
+            <span class="card-tag">Step 1</span>
+            <h3>1. Git</h3>
+            <p>
+              Git is a tool on your computer that saves snapshots of your work.
+              Think of it like saving checkpoints in a video game so you never lose your progress.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="card-tag">Step 2</span>
+            <h3>2. GitHub</h3>
+            <p>
+              GitHub is an online website where you store and backup your Git code in the cloud.
+              It allows you to share your project and collaborate with other developers.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="card-tag">Step 3</span>
+            <h3>3. Vercel</h3>
+            <p>
+              Vercel takes the code stored on GitHub and automatically turns it into a live,
+              public website with its own URL that anyone on the internet can visit.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Git &amp; Deploy Playground &bull; Built for hands-on learning</p>
+    </div>
+  </footer>
+
+  <!-- Link to external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Git &amp; Deploy Playground</title>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Git &amp; Deploy</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>About This Project</h1>
+        <p class="hero-subtitle">
+          Learn what Git, GitHub, and Vercel do, and how they connect to take your website live.
+        </p>
+      </div>
+    </section>
+
+    <section class="about-content">
+      <div class="container">
+
+        <!-- Explanation Section -->
+        <div class="content-block">
+          <h2>The Three Pillars</h2>
+          <div class="card-grid">
+
+            <article class="card">
+              <h3>What Git Does</h3>
+              <p>
+                Git is a <strong>version control system</strong> that runs on your local machine.
+                It tracks every change you make to your files. If you make a mistake, you can always
+                rewind back to an earlier working version.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>What GitHub Does</h3>
+              <p>
+                GitHub is a <strong>cloud hosting platform</strong> for Git repositories.
+                It keeps a safe copy of your project online so you can share your work with others,
+                collaborate with teammates, and connect to deployment services.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>What Vercel Does</h3>
+              <p>
+                Vercel is a <strong>cloud deployment platform</strong>.
+                It connects directly to your GitHub repository. Whenever you push new code to GitHub,
+                Vercel automatically updates your live website in seconds.
+              </p>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Steps to Deploy -->
+        <div class="content-block steps-section">
+          <h2>5 Steps to Deploy a Website</h2>
+          <ol class="steps-list">
+            <li>
+              <strong>Write Code Locally:</strong>
+              Create or edit your HTML, CSS, and JavaScript files on your computer.
+            </li>
+            <li>
+              <strong>Save Changes with Git:</strong>
+              Use <code>git add</code> and <code>git commit</code> to record a snapshot of your updates.
+            </li>
+            <li>
+              <strong>Push to GitHub:</strong>
+              Use <code>git push</code> to upload your committed code to your repository on GitHub.
+            </li>
+            <li>
+              <strong>Connect to Vercel:</strong>
+              Import your GitHub repository into Vercel with just a few clicks.
+            </li>
+            <li>
+              <strong>Share Your Live Link:</strong>
+              Vercel gives you a public link (URL) that you can share with friends and recruiters!
+            </li>
+          </ol>
+        </div>
+
+        <!-- Back to Home Button -->
+        <div class="action-center">
+          <a href="index.html" class="btn btn-secondary">&larr; Back to Home</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Git &amp; Deploy Playground &bull; Built for hands-on learning</p>
+    </div>
+  </footer>
+
+</body>
+</html>
